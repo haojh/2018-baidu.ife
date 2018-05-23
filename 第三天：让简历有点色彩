@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>第三天：让简历有点色彩</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			list-style: none;
+		}
+
+		div#container{
+            width: 1280px;
+            background-color: #eeedec;
+            margin: 0 auto;
+		}
+		div#top{
+			width: 100%;
+			height: 50px;
+			background-color: #2189bf;
+			color: white;
+			font-size: 16px;
+			text-align: center;
+			line-height: 50px;
+		}
+		div#left-part{
+			width: 28%;
+			height:800px;
+			background-color: #2a2e3d;
+			color: #bababe;
+			float: left;
+		}
+		#left-part img{
+			width: 50px;
+			height: 50px;
+			margin-left: 170px;
+			margin-top: 50px;
+		}
+		#left-part h5{
+			margin-left: 40px;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+		div#body-part{
+			width: 72%;
+			height: 800px;
+			text-align: center;
+			float: right;
+		}
+		#body-part .h55{
+			background-color: white;
+			height: 30px;
+			line-height: 30px;
+			margin-top: 40px;
+		}
+		li.specile{
+			margin-left: 
+		}
+		p{
+			text-align: left;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		#clear{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="top">
+			<h4>XXX的个人简历</h4>
+		</div>
+		<div id="left-part">
+			<img src="./img/9-left1.png" alt="加载失败">
+			<h5>姓名：xxx</h5>
+			<h5>年龄：22</h5>
+			<h5>性别：女</h5>
+			<h5>联系方式：XXX-XXXX-XXXX</h5>
+			<h5>家庭住址：北京市</h5>
+		</div>
+		<div id="body-part">
+			<h5 class="h55">毕业学校</h5>
+			<ul class="ul5">
+				<li>本科：XXX大学</li>
+				<li>研究生：XXX大学</li>
+			</ul>
+			<h5 class="h55">所获荣誉</h5>
+			<ul class="ul5">
+				<li>在2013-2014年，荣获国家奖学金</li>
+				<li>在2013-2014年，荣获国家奖学金</li>
+				<li>在2013-2014年，荣获国家奖学金</li>
+			</ul>
+			<h5 class="h55">项目经历</h5>
+			<ul class="ul5">
+				<p>项目一：
+					<br>与岗位匹配度高的、客户知名度比较高、项目规模比较大、个人参与程度比较高。这些项目能够紧紧抓住HR的眼球，让你的简历在第一时间脱颖而出，而其他的项目可以在前面的工作介绍中一笔带过。</p>
+				<p>项目二：
+					<br>与岗位匹配度高的、客户知名度比较高、项目规模比较大、个人参与程度比较高。这些项目能够紧紧抓住HR的眼球，让你的简历在第一时间脱颖而出，而其他的项目可以在前面的工作介绍中一笔带过。</p>
+			</ul>
+			
+		</div>
+		<div id="clear"></div>
+	</div>
+</body>
+</html>
